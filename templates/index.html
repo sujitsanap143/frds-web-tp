@@ -11,7 +11,9 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -34,6 +36,25 @@
                 font-size: 3.5rem;
             }
         }
+
+      #socialmedia{
+          font-size: 40px;
+          text-align: center;
+          margin-right: 0px;
+          margin-left: 50px;
+      }
+      
+      #wp{color:#964b00;}
+      #fb{color:blue;}
+      #insta{
+
+          background: -webkit-linear-gradient(rgb(188, 12, 241), 					rgb(212, 4, 4));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+      #ld{color:#182fa1;}
+      
     </style>
 
 
@@ -45,7 +66,7 @@
 
 <div class='container'>
     <h1 style='font-family:Times, "Times New Roman", serif; font-size:50px;'><center><b>SUJIT SANAP</b></center></h1>
-  <p><center><b>Wellcome to my page..</b></center></p>
+  <p><center><b><i class="bi bi-emoji-wink"></i>  Wellcome to my page  <i class="bi bi-emoji-wink"></i></b></center></p>
 
 
   
@@ -109,13 +130,30 @@
 
             <!-- START THE FEATURETTES -->
       <hr>
-      <center><h1>🠟 Introduce Myself 🠟</h1></center>
+      <center><h1><i class="bi bi-chevron-double-down"></i> Introduce Myself <i class="bi bi-chevron-double-down"></i></h1></center>
       <hr class='mb-5'>
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading"><b>Sujit Sanap</b></h2>
             <p class="lead"><em>- armed with a BE in Computer Science and Engineering, actively seeks opportunities as a Python Developer, aiming to leverage his programming skills and knowledge to excel in the field of software development..</em></p>
-          <p><em><b>Email:-</b> sujitsanap143@gmail.com</em></p>
+          
+          <p style='font-size:20px;' class='mt-5'><em><b>Connect With me..</b></em></p>
+          
+          <div id='socialmedia' class='mb-5'>
+            <i class="bi bi-arrow-return-right ms-0"></i>
+            
+            <a href="mailto:sujitsanap143@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill ms-4" id="wp"></i></a>
+
+            <a href="https://www.linkedin.com/in/sujit-sanap-b673b4216/" target="_blank"><i class="bi bi-linkedin mx-5" id="ld"></i></a>
+
+            <a href="https://www.instagram.com/sujit_sanap_/" target="_blank"><i class="bi bi-instagram" id="insta"></i></a>
+
+            
+
+            <a href="https://www.facebook.com/sujit.sanap.33/" target="_blank"><i class="bi bi-facebook mx-5" id="fb"></i></a>
+
+          </div>
+          
         </div>
         <div class="col-md-5 order-md-1">
           <img src='static/sujitprof.jpeg' class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded mx-auto d-block" alt="...">
@@ -129,7 +167,7 @@
 
             
             <hr class='mt-5'>
-            <center><h1>🠟 Meet My Friends 🠟</h1></center>
+            <center><h1><i class="bi bi-chevron-double-down"></i> Meet My Friends <i class="bi bi-chevron-double-down"></i></h1></center>
             <hr class='mb-5'>
 
             <div class="row featurette">
